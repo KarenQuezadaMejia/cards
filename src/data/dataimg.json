@@ -1,0 +1,41 @@
+{"wondersWorld": [
+    {
+        "name": "Cristo Redentor",
+        "img": "https://i.ibb.co/SdbJt8f/Cristo-Redentor.jpg"
+    },
+
+    {
+        "name": "Murilla China",
+        "img": "https://i.ibb.co/4YYffgr/La-gran-muralla-china.jpg"
+    },
+
+    {
+        "name": "Machu Picchu",
+        "img": "https://i.ibb.co/tDMk4yZ/Machu-Picchu-Peru.jpg"
+    },
+
+    {
+        "name": "Petra",
+        "img": "https://i.ibb.co/dDXnGr4/Petra.jpg"
+    },
+
+    {
+        "name": "Taj Mahal",
+        "img": "https://i.ibb.co/0hDTKtx/Taj-Mahal.jpg"
+    },
+
+    {
+        "name": "Templo de Kukulcan",
+        "img": "https://i.ibb.co/Ch0zBPs/Templo-de-Kukulcan.jpg"
+    },
+
+    {
+        "name": "Coliseo Romano",
+        "img": "https://i.ibb.co/rtkzChs/Coliseo-Romano.jpg"
+    },
+
+    {
+        "name": "Piramide",
+        "img": "https://i.ibb.co/PTFTMXp/Piramide.jpg"
+    }
+]}
