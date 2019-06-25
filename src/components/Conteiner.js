@@ -1,39 +1,24 @@
 import React, {Component} from 'react';
-import Button from './Button';
-/* 
+import '../css/Conteiner.css';
+import Cards from './Cards';
+
 class Conteiner extends Component{
-render (){
-    const cards =  require[("../data/imgdata")];
-    return (
-        <div className = "container">
-            {cards.map((card)=> <span>{card}</span>)}
-        </div>
-    );
-}
-}
-export default Conteiner; */
-
-const cards = require ("../data/dataimg");
-class Conteiner extends Component{
-     constructor (){
-         super();
-         this.state ={
-             cards,
-         }
-     }
-     render (){
-         const imgcards = cards.wondersWorld.map((product)=> {
-             return (
-                <Button rol={product.item + "" + product.img} customOnButtonClick={() => { this.props.nameProduct(menubreakfast) }} />
-
-             )
-         })
-         return(
-            <div className = "container">
-                {imgcards}
-            </div>
-         );
-     }
- }  
-
+    constructor(props){
+        super(props)
+        this.state ={
+            url: ""
+        }
+    }
+    render(){
+        const cards = [1,2,3,4,5,6,7,8];
+        return (
+            <section className= "BoxConteiner">
+              {
+                  cards.map((cards)=> 
+                  <Cards></Cards>)
+              }
+            </section>
+        );
+    }
+} 
 export default Conteiner;
