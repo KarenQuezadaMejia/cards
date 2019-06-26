@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
 import './App.css';
-import Conteiner from './components/Conteiner'
+import ConteinerCards from './components/ConteinerCards'
 
 
   class App extends Component {
     render () {
         return (
-          <div className="App">
-          <Conteiner/>
-        </div>  
+          <ConteinerCards/>
        );
     }
   } 

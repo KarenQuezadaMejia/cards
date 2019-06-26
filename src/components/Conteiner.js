@@ -1,24 +1,18 @@
 import React, {Component} from 'react';
-import '../css/Conteiner.css';
-import Cards from './Cards';
+import img from '../function/imgCards';
+import deck from '../function/deck';
+import ConteinerCards from './ConteinerCards';
 
-class Conteiner extends Component{
-    constructor(props){
-        super(props)
-        this.state ={
-            url: ""
-        }
-    }
+class Conteiner extends Component {
     render(){
-        const cards = [1,2,3,4,5,6,7,8];
-        return (
-            <section className= "BoxConteiner">
-              {
-                  cards.map((cards)=> 
-                  <Cards></Cards>)
-              }
-            </section>
+        return(
+            <div className="board">
+            {
+                this.props.builtDeck
+            .map((element)=> <Card icon= {element.icon} number={element.number} />)
+            }
+            </div> 
         );
     }
-} 
-export default Conteiner;
+}
+export default Conteiner

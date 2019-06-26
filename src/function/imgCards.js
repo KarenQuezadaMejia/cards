@@ -1,4 +1,4 @@
-let img = [
+let image = [
     "https://i.ibb.co/SdbJt8f/Cristo-Redentor.jpg",
     "https://i.ibb.co/4YYffgr/La-gran-muralla-china.jpg",
     "https://i.ibb.co/tDMk4yZ/Machu-Picchu-Peru.jpg",
@@ -9,4 +9,4 @@ let img = [
     "https://i.ibb.co/PTFTMXp/Piramide.jpg",
 ]
 
-export default img;
+export default image;

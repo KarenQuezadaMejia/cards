@@ -1,4 +1,4 @@
-import shuffle from 'shuffle-array';
+import shuffle from 'lodash.shuffle';
 import img from './imgCards';
 
 function deck () {
